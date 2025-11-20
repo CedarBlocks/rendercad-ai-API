@@ -1,0 +1,43 @@
+{
+  "name": "rendercad-ai",
+  "version": "0.1.0",
+  "description": "Node.js client library for the RenderCAD AI API - Transform flat images into photorealistic renders",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import": "./src/index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rendercad",
+    "ai",
+    "render",
+    "image",
+    "photorealistic",
+    "api",
+    "client"
+  ],
+  "author": "CedarBlocks",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "optionalDependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CedarBlocks/rendercad-ai-API"
+  },
+  "bugs": {
+    "url": "https://github.com/CedarBlocks/rendercad-ai-API/issues"
+  },
+  "homepage": "https://rendercad.ai"
+}
+
